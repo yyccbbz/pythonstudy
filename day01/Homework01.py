@@ -3,6 +3,8 @@
 # pythonstudy--Homework01
 # 2017/5/11 16:15
 
+import getpass
+
 '''
 作业一：博客
 
@@ -19,6 +21,12 @@
 所需新知识点：列表、字典
 '''
 
+
+print("客户您好 欢迎登陆".center(30, '-'))
+print('-'*35)
+username = input("用户名:")
+# password = input("密  码:")
+password = getpass.getpass("密  码:")
 
 
 
